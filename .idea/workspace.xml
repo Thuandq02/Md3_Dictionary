@@ -46,7 +46,6 @@
       <change afterPath="$PROJECT_DIR$/../MVC_Student/src/view/edit.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MVC_Student/src/view/list.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MVC_Student/src/view/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dictionary.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Stack-Queue-Tree/Patient.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Stack-Queue-Tree/Queue.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Stack-Queue-Tree/Stack.php" afterDir="false" />
@@ -336,11 +335,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/html.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/display-discount.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../calculator.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dknguoidung.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hinhhoc/Circle.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/hinhhoc/Circle.php" afterDir="false" />
@@ -512,7 +506,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607912581858</updated>
       <workItem from="1607912585839" duration="2880000" />
-      <workItem from="1607915700017" duration="5125000" />
+      <workItem from="1607915700017" duration="5708000" />
     </task>
     <servers />
   </component>
