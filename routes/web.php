@@ -17,15 +17,28 @@ use Illuminate\Support\Facades\Route;
 //    return view('test');
 //});
 
-Route::get('/discount', function () {
-    return view('display-discount');
+Route::get('/dictionary', function () {
+    return view('dictionary');
 });
 
-Route::post('/show', function (Illuminate\Http\Request $request) {
-    $productDescription = $request->input('Product_Description');
-    $listPrice = $request->input('Price');
-    $discountPercent = $request->input('Discount_Percent');
-    $discountAmount = $listPrice * $discountPercent * 0.01;
-    $discountPrice = $listPrice * $discountAmount;
-    return view('show', compact('productDescription', 'listPrice', 'discountPercent', 'discountAmount', 'discountPrice'));
+Route::post('/dictionary', function (Illuminate\Http\Request $request) {
+        $dictionary = [
+            "hello" => "xin chao",
+            "what" => "cái gì",
+            "book" => "sách",
+            "pen" => "bút"
+        ];
+        $searh = $request->input('search');
+        $flag = 0;
+        foreach ($dictionary as $key => $dictionarys){
+            if ($key == $searh){
+                echo "From: ".$key."<br>"."Meaning of words: ".$dictionarys;
+                echo "<br>";
+                $flag = 1;
+            }
+        }
+        if ($flag == 0){
+            echo "Did not find the words to look up.";
+        }
+        return view('dictionary');
 });
